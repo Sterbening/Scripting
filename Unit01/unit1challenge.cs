@@ -23,17 +23,17 @@ public class Program
 		Console.WriteLine(num4 * num5); // Equate to 0.75
 		Console.WriteLine(num3 / num4); // Equate to 43.3333333333333
 		
-		 // Type your username and press enter
-     	Console.WriteLine("Enter username:");
-     	string userName = Console.ReadLine();
-     	Console.WriteLine("Username is: " + userName);
+		 // Type your name and press enter
+     	Console.WriteLine("Enter name:"); // Printing a line asking for a name
+     	string userName = Console.ReadLine(); // This is where you actually input the name
+     	Console.WriteLine("Name is: " + userName); // This will show your name
 		
-		Console.WriteLine(string1 + userName);
-		Console.WriteLine(string2 + string3);
+		Console.WriteLine(string1 + userName); // Response to your name
+		Console.WriteLine(string2 + string3); // Response to your name
 		
 		 // Enter you answer to the question
-		Console.WriteLine("Enter Answer");
-		string userAnswer = Console.ReadLine();
-		Console.WriteLine(userAnswer);
+		Console.WriteLine("Enter Answer"); // Asking for your answer to the question
+		string userAnswer = Console.ReadLine(); // User inputs thier answer
+		Console.WriteLine(userAnswer); // Printing answer
 	}
 }
